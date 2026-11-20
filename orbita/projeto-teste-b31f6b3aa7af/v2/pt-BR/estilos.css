@@ -1,0 +1,57 @@
+#pagina-agentes{--verde:#174D3C;--tinta:#182e28;--amarelo:#ffda59;--claro:#f1f6f3;isolation:isolate;display:block;width:100%;max-width:100%;margin:0;background:#fff;color:var(--tinta);font:400 17px/1.6 system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:normal;text-align:left;overflow-wrap:break-word}
+#pagina-agentes *,#pagina-agentes *::before,#pagina-agentes *::after{box-sizing:border-box}
+#pagina-agentes :where(h1,h2,h3,p,figure,ol,ul){margin:0;padding:0}
+#pagina-agentes :where(h1,h2,h3){color:inherit;font-family:inherit;font-weight:800;line-height:1.13;letter-spacing:-.035em;text-transform:none;text-wrap:balance}
+#pagina-agentes h2{font-size:clamp(28px,3.1vw,44px)}
+#pagina-agentes h3{font-size:clamp(21px,2vw,26px)}
+#pagina-agentes .pa-faixa{display:flex;align-items:center;justify-content:center;gap:18px;min-height:46px;padding:7px 16px;background:#123f32;color:white;border-bottom:1px solid #ffffff38;font-size:13px;font-weight:600;text-align:center}
+#pagina-agentes .pa-faixa strong{display:inline-flex;align-items:center;gap:8px;letter-spacing:.08em;text-transform:uppercase}
+#pagina-agentes .pa-faixa strong::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--amarelo)}
+#pagina-agentes .pa-faixa b{display:inline-block;margin-left:6px;padding:1px 9px;border:1px solid #ffffff38;border-radius:6px;background:#0e3429;color:var(--amarelo)}
+#pagina-agentes .pa-hero{position:relative;overflow:hidden;padding:40px 22px 86px;text-align:center;background:radial-gradient(ellipse at 50% 5%,#28644e 0%,var(--verde) 62%);color:white}
+#pagina-agentes .pa-hero::after{content:'';position:absolute;bottom:-1px;left:0;width:100%;height:22px;border-radius:50% 50% 0 0 / 100% 100% 0 0;background:white}
+#pagina-agentes .pa-capas{display:block;width:min(100%,490px);height:auto;max-height:330px;object-fit:contain;margin:0 auto 28px}
+#pagina-agentes .pa-hero h1{max-width:920px;margin:auto;font-size:clamp(42px,4.2vw,64px);line-height:1.08;color:#fff}
+#pagina-agentes .pa-hero h1 em{display:block;color:var(--amarelo);font-style:normal;text-decoration:underline;text-decoration-color:#ffda5950;text-decoration-thickness:3px;text-underline-offset:6px}
+#pagina-agentes .pa-hero h2{margin:28px auto 10px;max-width:850px;font-size:clamp(20px,1.8vw,25px);letter-spacing:-.02em}
+#pagina-agentes .pa-hero p{max-width:890px;margin:auto;font-size:clamp(17px,1.4vw,20px);line-height:1.58;color:#f4f8f5}
+#pagina-agentes .pa-comprar{display:inline-flex;justify-content:center;align-items:center;width:min(100%,500px);min-height:72px;margin:30px auto 0;padding:17px 28px;border:1px solid transparent;border-radius:9px;background:#ff8b39;color:#291b11;box-shadow:0 7px 20px #08271f40;font:800 18px/1.4 system-ui,-apple-system,'Segoe UI',sans-serif;letter-spacing:.012em;text-align:center;text-decoration:none;text-transform:uppercase}
+#pagina-agentes .pa-comprar:hover{background:#ffa259}
+#pagina-agentes :is(a,summary):focus-visible{outline:3px solid #c98309;outline-offset:4px}
+#pagina-agentes .pa-hero small{display:block;margin:15px auto 0;font-size:13px;color:#e2eee7}
+#pagina-agentes .pa-largura{width:min(calc(100% - 48px),1080px);margin-inline:auto}
+#pagina-agentes .pa-leitura{width:min(calc(100% - 48px),760px);margin-inline:auto}
+#pagina-agentes .pa-beneficios{margin-top:14px;background:var(--claro)}
+#pagina-agentes .pa-beneficios ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));list-style:none;gap:42px;padding-block:56px;text-align:center}
+#pagina-agentes .pa-beneficios li{display:flex;flex-direction:column;align-items:center;gap:8px}
+#pagina-agentes .pa-beneficios li>span:last-child{max-width:280px}
+#pagina-agentes .pa-beneficios strong{color:var(--verde);font-size:21px;line-height:1.25}
+#pagina-agentes .pa-icone{display:grid;place-items:center;height:44px;margin-bottom:9px;color:var(--verde);font:400 38px/1 Georgia,serif}
+#pagina-agentes .pa-bloco{padding-block:clamp(48px,6vw,84px)}
+#pagina-agentes .pa-bloco h2{margin-bottom:20px;color:var(--verde)}
+#pagina-agentes .pa-intro{max-width:830px}
+#pagina-agentes .pa-galeria{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:32px}
+#pagina-agentes .pa-galeria figure{overflow:hidden;border:1px solid #d2ddd6;border-radius:10px;background:white;box-shadow:0 3px 9px #174d3c09}
+#pagina-agentes .pa-galeria img{display:block;width:100%;height:auto;aspect-ratio:14/9;background:#faf7ec}
+#pagina-agentes figcaption{padding:15px 16px 18px;border-top:1px solid #e2e5db;font-size:16px;line-height:1.35;font-weight:700;color:var(--verde)}
+#pagina-agentes .pa-fundo{background:var(--claro)}
+#pagina-agentes .pa-sumario{counter-reset:parte;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 42px;list-style:none;margin-top:28px}
+#pagina-agentes .pa-sumario li{counter-increment:parte;display:flex;align-items:flex-start;gap:16px;padding:23px 0;border-top:1px solid #c9d9ce}
+#pagina-agentes .pa-sumario li::before{content:counter(parte);display:grid;place-items:center;flex:0 0 36px;height:36px;border-radius:50%;background:var(--verde);color:white;font-weight:750}
+#pagina-agentes .pa-sumario small,#pagina-agentes .pa-dupla small{display:block;margin-bottom:6px;color:#486758;font-size:13px;font-weight:700}
+#pagina-agentes .pa-sumario p,#pagina-agentes .pa-revisao p,#pagina-agentes .pa-dupla p,#pagina-agentes .pa-leitura p+p{margin-top:10px}
+#pagina-agentes .pa-revisao{margin-top:22px;padding:clamp(22px,3vw,36px);border-left:4px solid var(--amarelo);border-radius:0 12px 12px 0;background:var(--verde);color:white}
+#pagina-agentes .pa-dupla{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
+#pagina-agentes .pa-dupla article{padding:clamp(22px,3vw,36px);border:1px solid #dfdfcf;border-top:4px solid var(--verde);border-radius:8px;background:#faf9f1}
+#pagina-agentes .pa-dupla strong{display:block;margin-top:18px;color:var(--verde);font-size:15px}
+#pagina-agentes .pa-faq{margin-top:52px}
+#pagina-agentes details{border-bottom:1px solid #d2ddd6}
+#pagina-agentes summary{cursor:pointer;padding:17px 0;color:var(--verde);font-weight:700}
+#pagina-agentes details p{padding:0 0 20px}
+#pagina-agentes .pa-oferta{scroll-margin-top:24px;padding:clamp(48px,6vw,84px) 0;text-align:center;background:var(--verde);color:#fff}
+#pagina-agentes .pa-oferta h2{color:white;margin-bottom:18px}
+#pagina-agentes .pa-valor{display:flex;justify-content:center;align-items:baseline;flex-wrap:wrap;gap:14px;margin:22px 0;line-height:1}
+#pagina-agentes .pa-valor del{color:#e2ebe4;font-size:21px}
+#pagina-agentes .pa-valor strong{color:var(--amarelo);font-size:clamp(42px,5vw,64px);letter-spacing:-.045em}
+@media (min-width:768px) and (max-width:1000px){#pagina-agentes .pa-galeria{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:767px){#pagina-agentes .pa-faixa{flex-direction:column;gap:2px;min-height:60px;padding-block:6px;font-size:12px}#pagina-agentes .pa-hero{padding:46px 14px 52px}#pagina-agentes .pa-capas{width:min(88%,330px);max-height:250px;margin-bottom:26px}#pagina-agentes .pa-hero h1{font-size:clamp(29px,7.5vw,42px)}#pagina-agentes .pa-hero h2{font-size:21px;margin:22px auto 12px}#pagina-agentes .pa-hero p{font-size:18px;line-height:1.55}#pagina-agentes .pa-comprar{min-height:82px;padding:18px 20px}#pagina-agentes .pa-hero small{max-width:360px;line-height:1.55}#pagina-agentes .pa-largura,#pagina-agentes .pa-leitura{width:calc(100% - 36px)}#pagina-agentes .pa-beneficios ul,#pagina-agentes .pa-galeria,#pagina-agentes .pa-sumario,#pagina-agentes .pa-dupla{grid-template-columns:minmax(0,1fr)}#pagina-agentes .pa-beneficios ul{gap:30px;padding-block:36px}#pagina-agentes .pa-icone{margin-bottom:0}#pagina-agentes .pa-galeria{gap:18px;width:min(100%,420px);margin-inline:auto}#pagina-agentes .pa-dupla{gap:16px}#pagina-agentes .pa-sumario li{gap:12px}#pagina-agentes .pa-faq{margin-top:38px}}

@@ -1,0 +1,87 @@
+#pagina-agentes{--green:#174D3C;--deep:#103e30;--gold:#ffd446;--ink:#192c26;--pale:#f1f6f3;--line:#cfdfd6;display:block;isolation:isolate;width:100%;max-width:100%;margin:0;background:#fff;color:var(--ink);font-family:system-ui,-apple-system,'PingFang SC','Microsoft YaHei','Noto Sans CJK SC',sans-serif;font-size:16px;line-height:1.78;letter-spacing:normal;text-align:start;overflow-wrap:anywhere;line-break:strict;color-scheme:light}
+#pagina-agentes *,#pagina-agentes *::before,#pagina-agentes *::after{box-sizing:border-box}
+#pagina-agentes :is(h1,h2,h3,p,figure,dl,dd){margin:0}
+#pagina-agentes :is(h1,h2,h3){font-family:inherit;font-weight:800;color:inherit;text-transform:none;letter-spacing:normal;line-height:1.35}
+#pagina-agentes h2{font-size:clamp(26px,3vw,39px);color:var(--green);text-align:center;text-wrap:balance}
+#pagina-agentes h3{font-size:21px;color:var(--green)}
+#pagina-agentes .pa-width{width:min(1060px,calc(100% - 64px));margin-inline:auto}
+#pagina-agentes .pa-block{padding-block:76px}
+#pagina-agentes .pa-strip{display:flex;align-items:center;justify-content:center;gap:18px;min-height:46px;padding:7px 16px;color:white;background:var(--deep);border-bottom:1px solid #ffffff38;font-size:14px;font-weight:650;line-height:1.5;text-align:center}
+#pagina-agentes .pa-strip strong{display:inline-block;margin-inline-start:5px;padding:2px 9px;border:1px solid #ffffff2b;border-radius:7px;color:var(--gold);background:#103629}
+#pagina-agentes .pa-set::before{content:'';display:inline-block;width:7px;height:7px;margin-inline-end:8px;border-radius:50%;background:var(--gold);vertical-align:middle}
+#pagina-agentes .pa-hero{position:relative;overflow:hidden;padding:36px 24px 88px;text-align:center;color:white;background:radial-gradient(ellipse at 50% 0%,#306952 0%,#174D3C 63%,#144534 100%)}
+#pagina-agentes .pa-hero::after{content:'';position:absolute;bottom:-22px;left:0;width:100%;height:42px;border-radius:50% 50% 0 0;background:#fff;pointer-events:none}
+#pagina-agentes .pa-cover{display:block;width:min(425px,84%);height:auto;max-height:300px;object-fit:contain;margin:0 auto 30px}
+#pagina-agentes .pa-hero h1{max-width:1050px;margin:auto;font-size:clamp(38px,4.1vw,60px);line-height:1.25;text-wrap:balance;color:white;letter-spacing:-.035em}
+#pagina-agentes .pa-hero em{color:var(--gold);font-style:normal;text-decoration:underline;text-decoration-color:#ffda5d66;text-decoration-thickness:3px;text-underline-offset:.15em}
+#pagina-agentes .pa-lead{max-width:875px;margin:24px auto 0;font-size:20px;line-height:1.7;color:#f7faf8;text-wrap:pretty}
+#pagina-agentes .pa-buy{display:flex;align-items:center;justify-content:center;width:min(480px,100%);min-height:72px;margin:32px auto 0;padding:17px 24px;border:0;border-radius:9px;background:#ff841f;color:#24180b;box-shadow:0 7px 22px #e97a254d;font:800 20px/1.55 inherit;font-family:inherit;font-size:20px;font-weight:800;line-height:1.55;letter-spacing:normal;text-align:center;text-decoration:none;white-space:normal}
+#pagina-agentes .pa-buy:hover{background:#ff9b48;color:#21190d}
+#pagina-agentes :is(a,summary):focus-visible{outline:3px solid #ce9410;outline-offset:4px}
+#pagina-agentes .pa-assurance{display:flex;align-items:center;justify-content:center;gap:7px;margin:15px 0 0;color:#e1eee7;font-size:13px;line-height:1.65}
+#pagina-agentes .pa-lock{position:relative;width:11px;height:9px;margin-top:4px;border:1.3px solid currentColor;border-radius:2px;flex:none}
+#pagina-agentes .pa-lock::before{content:'';position:absolute;left:1px;bottom:7px;width:7px;height:6px;border:1.3px solid currentColor;border-bottom:0;border-radius:5px 5px 0 0}
+#pagina-agentes .pa-benefits{margin-top:14px;padding:65px 0 59px;background:var(--pale)}
+#pagina-agentes .pa-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:38px;text-align:center}
+#pagina-agentes .pa-benefits h2{margin:17px 0 8px;font-size:21px}
+#pagina-agentes .pa-benefits p{font-size:17px}
+#pagina-agentes .pa-icon{display:block;position:relative;height:29px;width:25px;margin:auto;border:2px solid var(--green);border-radius:4px;color:var(--green)}
+#pagina-agentes .pa-sheet::before{content:'';position:absolute;inset:6px 4px;background:repeating-linear-gradient(to bottom,currentColor 0 2px,transparent 2px 6px)}
+#pagina-agentes .pa-book{width:24px;border-radius:4px 1px 1px 4px}
+#pagina-agentes .pa-book::before{content:'';position:absolute;inset:auto 0 4px;height:2px;background:currentColor}
+#pagina-agentes .pa-globe{width:29px;border-radius:50%}
+#pagina-agentes .pa-globe::before{content:'';position:absolute;inset:0 5px;border-inline:2px solid currentColor;border-radius:50%}
+#pagina-agentes .pa-globe::after{content:'';position:absolute;top:12px;inset-inline:0;border-top:2px solid currentColor}
+#pagina-agentes .pa-intro{max-width:800px;margin:18px auto 30px;font-size:18px}
+#pagina-agentes .pa-example{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:54px;max-width:780px;margin:auto;padding:32px 48px;background:#fff8e6;border:1px solid #ecdfb9;border-radius:16px}
+#pagina-agentes .pa-machine{display:grid;justify-items:center;gap:3px;text-align:center}
+#pagina-agentes .pa-machine strong{font-size:21px;color:var(--green)}
+#pagina-agentes .pa-oven{position:relative;width:88px;height:69px;margin-bottom:10px;border:3px solid var(--green);border-bottom-width:6px;border-radius:8px;background:#f3dab0;box-shadow:3px 4px 0 #d6c398}
+#pagina-agentes .pa-oven::before{content:'';position:absolute;top:5px;left:8px;width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:11px 0 var(--green),22px 0 var(--green)}
+#pagina-agentes .pa-oven i{position:absolute;inset:17px 7px 5px;border:2px solid var(--green);border-radius:4px;background:linear-gradient(148deg,#bad4bc 44%,#dbebd8 45% 52%,#bad4bc 53%)}
+#pagina-agentes .pa-fork{display:grid;gap:13px;border-inline-start:2px solid #7c9987;padding-inline-start:18px}
+#pagina-agentes .pa-fork>div{position:relative;padding:9px 15px;border-radius:7px;background:#fff}
+#pagina-agentes .pa-fork>div::before{content:'';position:absolute;right:100%;top:50%;width:18px;border-top:2px solid #7c9987}
+#pagina-agentes .pa-fork :is(b,span){display:block}
+#pagina-agentes .pa-fork b{color:var(--green)}
+#pagina-agentes .pa-sample-title{margin:46px 0 18px;text-align:center;font-size:26px}
+#pagina-agentes .pa-samples{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+#pagina-agentes .pa-samples figure{display:flex;flex-direction:column;min-width:0;padding:18px 14px;background:#fbfcf9;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:4px 4px 10px 10px;text-align:center}
+#pagina-agentes .pa-samples figcaption{margin:0 0 14px;font-size:17px;color:var(--green);font-weight:750}
+#pagina-agentes .pa-mini{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-height:88px;font-size:14px}
+#pagina-agentes .pa-mini>span{padding:2px 10px;border-radius:4px;background:#e3efe8}
+#pagina-agentes .pa-mini>span:last-child{background:#f9eecb}
+#pagina-agentes .pa-mini b{line-height:1.1;color:var(--green)}
+#pagina-agentes .pa-mini small{font-size:13px;color:#496457}
+#pagina-agentes .pa-classes{display:flex;flex-wrap:wrap;justify-content:center;gap:5px}
+#pagina-agentes .pa-classes i{padding:4px 8px;background:#e3efe8;border-bottom:2px solid #8bae9b;font-style:normal;font-weight:700}
+#pagina-agentes .pa-tint{background:var(--pale)}
+#pagina-agentes .pa-subhead{margin:10px auto 30px;color:#50695d;text-align:center;font-size:18px}
+#pagina-agentes .pa-chapters,#pagina-agentes .pa-bonuses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}
+#pagina-agentes .pa-chapters article,#pagina-agentes .pa-bonuses article{min-width:0;padding:25px 28px;border:1px solid var(--line);border-radius:12px;background:#fff}
+#pagina-agentes .pa-meta{margin-bottom:8px;color:#446756;font-weight:700;font-size:14px}
+#pagina-agentes article h3,#pagina-agentes aside h3{margin-bottom:10px}
+#pagina-agentes .pa-review,#pagina-agentes .pa-guarantee{margin-top:24px;padding:24px 28px;background:#e0ece4;border-inline-start:4px solid var(--green);border-radius:0 8px 8px 0}
+#pagina-agentes .pa-bonuses{margin-top:28px}
+#pagina-agentes .pa-bonuses article{background:#fffbef;border-color:#ebdfbb}
+#pagina-agentes .pa-audience{margin-top:64px}
+#pagina-agentes .pa-audience .pa-three{margin-top:28px;gap:24px}
+#pagina-agentes .pa-audience .pa-three>div{padding:20px 12px 0;border-top:2px solid var(--line)}
+#pagina-agentes .pa-audience h3{margin-bottom:10px;font-size:19px}
+#pagina-agentes .pa-offer{scroll-margin-top:18px;padding:62px 24px;background:var(--green);color:white;text-align:center}
+#pagina-agentes .pa-offer-inner{max-width:680px;margin:auto}
+#pagina-agentes .pa-offer h2{color:#fff}
+#pagina-agentes .pa-receipt{margin:28px 0 20px;padding:5px 22px;border:1px solid #ffffff36;border-radius:10px;background:#ffffff09;text-align:start}
+#pagina-agentes .pa-receipt>div{display:flex;align-items:baseline;justify-content:space-between;gap:15px;padding:12px 0}
+#pagina-agentes .pa-receipt>div+div{border-top:1px solid #ffffff30}
+#pagina-agentes .pa-receipt dd{flex:none;color:#ffedaf}
+#pagina-agentes .pa-total{color:#deede4}
+#pagina-agentes .pa-price{margin:4px 0 12px;color:var(--gold);font-weight:750}
+#pagina-agentes .pa-price strong{font-size:58px;line-height:1.2;letter-spacing:-.04em;font-variant-numeric:lining-nums}
+#pagina-agentes .pa-faq{max-width:820px}
+#pagina-agentes .pa-faq h2{margin-bottom:28px}
+#pagina-agentes details{padding:16px 0;border-bottom:1px solid var(--line)}
+#pagina-agentes summary{cursor:pointer;font-weight:750;font-size:18px;color:var(--green)}
+#pagina-agentes details p{margin-top:10px}
+#pagina-agentes .pa-guarantee{margin-top:36px}
+@media(max-width:767px){#pagina-agentes{font-size:16px}#pagina-agentes .pa-width{width:calc(100% - 36px)}#pagina-agentes .pa-block{padding-block:44px}#pagina-agentes .pa-strip{flex-direction:column;gap:2px;min-height:59px;font-size:12px}#pagina-agentes .pa-hero{padding:48px 14px 40px}#pagina-agentes .pa-cover{width:min(320px,90%);max-height:245px;margin-bottom:26px}#pagina-agentes .pa-hero h1{font-size:clamp(25px,6.9vw,37px);line-height:1.4;letter-spacing:-.025em}#pagina-agentes .pa-hero em{text-decoration-thickness:2px}#pagina-agentes .pa-lead{margin-top:21px;font-size:18px;line-height:1.7}#pagina-agentes .pa-buy{min-height:78px;width:100%;padding:16px 20px;margin-top:30px;font-size:19px}#pagina-agentes .pa-assurance{font-size:12px;margin-top:14px}#pagina-agentes .pa-benefits{padding:32px 0}#pagina-agentes .pa-three,#pagina-agentes .pa-samples,#pagina-agentes .pa-chapters,#pagina-agentes .pa-bonuses,#pagina-agentes .pa-example{grid-template-columns:minmax(0,1fr)}#pagina-agentes .pa-three{gap:24px}#pagina-agentes .pa-benefits .pa-three>div+div{border-top:1px solid var(--line);padding-top:24px}#pagina-agentes .pa-benefits h2{margin:10px 0 5px}#pagina-agentes .pa-intro{font-size:16px;margin:16px 0 22px}#pagina-agentes .pa-example{gap:22px;padding:24px}#pagina-agentes .pa-sample-title{margin-top:32px;font-size:23px}#pagina-agentes .pa-samples{gap:12px}#pagina-agentes .pa-samples figure{padding:15px}#pagina-agentes .pa-mini{min-height:0}#pagina-agentes .pa-chapters article,#pagina-agentes .pa-bonuses article,#pagina-agentes .pa-review,#pagina-agentes .pa-guarantee{padding:21px}#pagina-agentes .pa-audience{margin-top:40px}#pagina-agentes .pa-offer{padding:42px 18px}#pagina-agentes .pa-receipt{padding:4px 12px}#pagina-agentes .pa-receipt>div{gap:8px;font-size:14px}#pagina-agentes .pa-price strong{font-size:48px}}
