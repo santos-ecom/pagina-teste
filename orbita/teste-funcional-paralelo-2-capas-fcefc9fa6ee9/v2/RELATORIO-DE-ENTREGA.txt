@@ -1,0 +1,40 @@
+RELATÓRIO DE ENTREGA — PÁGINAS
+
+Projeto: TESTE FUNCIONAL PARALELO — 2 CAPAS
+Versão: 2
+Pasta no GitHub: orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2
+Repositório: https://github.com/santos-ecom/pagina-teste
+
+LINKS POR IDIOMA
+Os endereços abaixo ficam disponíveis após a publicação e atualização da hospedagem. A confirmação da publicação aparece no painel.
+
+Espanhol (es)
+Link: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/es/
+Arquivo no ZIP: es/index.html
+
+Alemão (de)
+Link: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/de/
+Arquivo no ZIP: de/index.html
+
+Inglês Reino Unido (en-GB)
+Link: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/en-GB/
+Arquivo no ZIP: en-GB/index.html
+
+Francês (fr)
+Link: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/fr/
+Arquivo no ZIP: fr/index.html
+
+Italiano (it)
+Link: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/it/
+Arquivo no ZIP: it/index.html
+
+Índice com todos os idiomas: https://anxishop.shop/orbita/teste-funcional-paralelo-2-capas-fcefc9fa6ee9/v2/
+
+COMO ABRIR O ZIP
+Extraia todo o ZIP mantendo as pastas. Abra index.html para escolher um idioma. As imagens e os estilos de cada versão estão na pasta do idioma.
+
+PADRÃO DOS NOMES
+orbita/nome-do-projeto-identificador/vN/idioma/
+O nome vem do projeto, sem acentos ou espaços. O identificador evita misturar projetos com o mesmo nome. A versão separa as entregas.
+
+Esta entrega é uma prévia estática. A configuração Shopify começa após sua aprovação no painel.
