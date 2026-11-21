@@ -1,0 +1,24 @@
+RELATÓRIO DE ENTREGA — PÁGINAS
+
+Projeto: Novo projeto
+Versão: 1
+Pasta no GitHub: orbita/novo-projeto-46862510dcad/v1
+Repositório: https://github.com/santos-ecom/pagina-teste
+
+LINKS POR IDIOMA
+Os endereços abaixo ficam disponíveis após a publicação e atualização da hospedagem. A confirmação da publicação aparece no painel.
+
+Português (pt-BR)
+Link: https://anxishop.shop/orbita/novo-projeto-46862510dcad/v1/pt-BR/
+Arquivo no ZIP: pt-BR/index.html
+
+Índice com todos os idiomas: https://anxishop.shop/orbita/novo-projeto-46862510dcad/v1/
+
+COMO ABRIR O ZIP
+Extraia todo o ZIP mantendo as pastas. Abra index.html para escolher um idioma. As imagens e os estilos de cada versão estão na pasta do idioma.
+
+PADRÃO DOS NOMES
+orbita/nome-do-projeto-identificador/vN/idioma/
+O nome vem do projeto, sem acentos ou espaços. O identificador evita misturar projetos com o mesmo nome. A versão separa as entregas.
+
+Esta entrega é uma prévia estática. A configuração Shopify começa após sua aprovação no painel.
