@@ -1,0 +1,14 @@
+#pagina-agentes{margin: 0px; font-family: Arial, sans-serif; background: rgb(247, 248, 244); color: rgb(23, 60, 49);}
+#pagina-agentes main{max-width: 960px; margin: auto; padding: 32px;}
+#pagina-agentes h1{text-align: center;}
+#pagina-agentes .hero{background: rgb(23, 77, 60); color: white; padding: 28px; border-radius: 18px;}
+#pagina-agentes .books{display: grid; grid-template-columns: 1fr 1fr; gap: 24px;}
+#pagina-agentes figure{margin: 24px 0px; text-align: center;}
+#pagina-agentes img{max-width: 100%; width: 300px; height: auto;}
+#pagina-agentes a{display: block; background: rgb(23, 77, 60); color: white; padding: 18px; text-align: center; border-radius: 10px; margin-top: 24px;}
+#pagina-agentes footer{padding: 32px; text-align: center;}
+@media (max-width: 767px){#pagina-agentes .books{grid-template-columns: 1fr;}
+#pagina-agentes main{padding: 18px;}}
+
+#pagina-agentes{--primary:#174D3C;--primary-dark:#174D3C;--bg-dark:#174D3C}
+#pagina-agentes .hero{background:#174D3C}
