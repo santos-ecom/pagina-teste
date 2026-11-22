@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "structureHash": "6e26c40c50e26c4bd27213ab268034fa75706eaf44cf70dee0ae8995db44cd40",
+  "imageInstances": 36,
+  "headingCount": 25,
+  "sectionCount": 14,
+  "sourceCssPreserved": true,
+  "changes": {
+    "removeFooter": true,
+    "color": "#174D3C",
+    "translateImages": true
+  }
+}
